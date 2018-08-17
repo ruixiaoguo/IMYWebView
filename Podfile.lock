@@ -1,0 +1,20 @@
+PODS:
+  - IMYWebView (0.8.1)
+  - SDAutoLayout (2.2.1)
+
+DEPENDENCIES:
+  - IMYWebView
+  - SDAutoLayout
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - IMYWebView
+    - SDAutoLayout
+
+SPEC CHECKSUMS:
+  IMYWebView: a6a9a52718ba6a44fb927d65f6d60930a8218cea
+  SDAutoLayout: 8bf6b3bbc8b01f775d4defbb4fda2ace805461be
+
+PODFILE CHECKSUM: 6cf999040a11ba516a8e2e84c2813d806b15aa49
+
+COCOAPODS: 1.5.3

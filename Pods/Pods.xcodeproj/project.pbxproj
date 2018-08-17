@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2583841E452778CE060D2CAD9A843687 /* SDAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 97822B74A2F454EBF086FC0F2720A9F7 /* SDAutoLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3602A316DC587A22D75176F3C947DD70 /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2904485B48D489102DB9293DF9ACE852 /* UIView+SDAutoLayout.m */; };
+		38718D0D2260B8A66F0FDDFDBCD40EF9 /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FB07B64717A3685CA16ECB30D23873 /* UITableView+SDAutoTableViewCellHeight.m */; };
+		389A6BBD4A509C490AD8C0875D70A1B6 /* IMYWebView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DEDAC0237F394ED22E2966A08FC7C1 /* IMYWebView-dummy.m */; };
+		605D2665CDCFFCAF28EDEEA141D377AD /* Pods-IMYWebView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1772983CCC566B1AB204A08C71BECE3 /* Pods-IMYWebView-dummy.m */; };
+		66844312B0D22D4C8DA174A0C251BAAB /* SDAutoLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5C396147B337021649243D8965EC1F /* SDAutoLayout-dummy.m */; };
+		A93FA21BA66D4872A4382E85705EE652 /* IMY_NJKWebViewProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = A741DB4E4C13E73242DBF80D2A31C9F3 /* IMY_NJKWebViewProgress.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AE5FB1BA2BCB134B5C3DB751AF2E8F5B /* IMY_NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA0ABFEB8F906105D02585C2ED668A5 /* IMY_NJKWebViewProgress.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CD350A558E7698FF191CAB0E074013E3 /* UIView+SDAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B0C397A499DF94142266783CFFBEB5D0 /* UIView+SDAutoLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D5E0767549F31CF21FE3DCD8659FDB5B /* IMYWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 593E763B284648CFCE423A1360506865 /* IMYWebView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F826BA40CB801A4B5294B0268C7464EE /* IMYWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF7C7469C8EF79BDEBDD119B77B5AD0 /* IMYWebView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD59CA0E744815C771992CE493E9EAC0 /* UITableView+SDAutoTableViewCellHeight.h in Headers */ = {isa = PBXBuildFile; fileRef = A556D0723732E0D64F314BBA077F049B /* UITableView+SDAutoTableViewCellHeight.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		558E11CD1C159ADED60FF26F4F1BC3FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 746C94C68BA79DF66CB85E08EAC4A1DD;
+			remoteInfo = SDAutoLayout;
+		};
+		5E6ACE06C2C5C5EB767F947BFDF51B79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83DAA7151B89430A81BAFAF7447424C2;
+			remoteInfo = IMYWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07F1BA5EDAF5754F9E1984F5E64C56FA /* Pods-IMYWebView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IMYWebView.debug.xcconfig"; sourceTree = "<group>"; };
+		159DA0789F6165B46A611055B4605464 /* SDAutoLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDAutoLayout-prefix.pch"; sourceTree = "<group>"; };
+		16DEDAC0237F394ED22E2966A08FC7C1 /* IMYWebView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IMYWebView-dummy.m"; sourceTree = "<group>"; };
+		17E84BE957CEC129A0C3BD56FD4DAC10 /* Pods-IMYWebView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IMYWebView.release.xcconfig"; sourceTree = "<group>"; };
+		2904485B48D489102DB9293DF9ACE852 /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+SDAutoLayout.m"; path = "SDAutoLayoutDemo/SDAutoLayout/UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		312E7B296673472F3194AC1B3A203216 /* Pods-IMYWebView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IMYWebView-acknowledgements.plist"; sourceTree = "<group>"; };
+		3FF7C7469C8EF79BDEBDD119B77B5AD0 /* IMYWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMYWebView.h; path = Classes/IMYWebView.h; sourceTree = "<group>"; };
+		4B7AE3C27FC2CA253671C90CB8117DDD /* libSDAutoLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSDAutoLayout.a; path = libSDAutoLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		593E763B284648CFCE423A1360506865 /* IMYWebView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IMYWebView.m; path = Classes/IMYWebView.m; sourceTree = "<group>"; };
+		5D3D7D47BDC5FF5A95B01D89B82E7062 /* Pods-IMYWebView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IMYWebView-resources.sh"; sourceTree = "<group>"; };
+		6C5C396147B337021649243D8965EC1F /* SDAutoLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDAutoLayout-dummy.m"; sourceTree = "<group>"; };
+		8741C06A4EE6DD3856DDF541EB6D7431 /* libPods-IMYWebView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-IMYWebView.a"; path = "libPods-IMYWebView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97822B74A2F454EBF086FC0F2720A9F7 /* SDAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAutoLayout.h; path = SDAutoLayoutDemo/SDAutoLayout/SDAutoLayout.h; sourceTree = "<group>"; };
+		A556D0723732E0D64F314BBA077F049B /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+SDAutoTableViewCellHeight.h"; path = "SDAutoLayoutDemo/SDAutoLayout/UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		A6ACE1469A2A974AF094A0B758312127 /* libIMYWebView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libIMYWebView.a; path = libIMYWebView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6BC7ECA25C382FB65613536BE543B25 /* Pods-IMYWebView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IMYWebView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A741DB4E4C13E73242DBF80D2A31C9F3 /* IMY_NJKWebViewProgress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMY_NJKWebViewProgress.h; path = Classes/UIWebViewProgress/IMY_NJKWebViewProgress.h; sourceTree = "<group>"; };
+		B0C397A499DF94142266783CFFBEB5D0 /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+SDAutoLayout.h"; path = "SDAutoLayoutDemo/SDAutoLayout/UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		B3CE5CF562B04DAB5B92E64985197633 /* Pods-IMYWebView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IMYWebView-frameworks.sh"; sourceTree = "<group>"; };
+		B7FB07B64717A3685CA16ECB30D23873 /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+SDAutoTableViewCellHeight.m"; path = "SDAutoLayoutDemo/SDAutoLayout/UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		C94AA35097704BE8458DC3655705AC31 /* IMYWebView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IMYWebView.xcconfig; sourceTree = "<group>"; };
+		CBA0ABFEB8F906105D02585C2ED668A5 /* IMY_NJKWebViewProgress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IMY_NJKWebViewProgress.m; path = Classes/UIWebViewProgress/IMY_NJKWebViewProgress.m; sourceTree = "<group>"; };
+		D1772983CCC566B1AB204A08C71BECE3 /* Pods-IMYWebView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IMYWebView-dummy.m"; sourceTree = "<group>"; };
+		D4AEF86BECC9A502859C740FF9816C66 /* SDAutoLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDAutoLayout.xcconfig; sourceTree = "<group>"; };
+		E5159B9431EB5E3F42E2BD14C55E95F4 /* IMYWebView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IMYWebView-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43263CA47F5D33AF37AD5ED22E716F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533CBE6DC80E0DBED5FF8391A1369F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C922A2DEA726225A8FCC079908720E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03819ABA8C90D7854D6E91B97E1320A8 /* IMYWebView */ = {
+			isa = PBXGroup;
+			children = (
+				A741DB4E4C13E73242DBF80D2A31C9F3 /* IMY_NJKWebViewProgress.h */,
+				CBA0ABFEB8F906105D02585C2ED668A5 /* IMY_NJKWebViewProgress.m */,
+				3FF7C7469C8EF79BDEBDD119B77B5AD0 /* IMYWebView.h */,
+				593E763B284648CFCE423A1360506865 /* IMYWebView.m */,
+				887CCA87E12E7843AAFE50F451D0D2CA /* Support Files */,
+			);
+			name = IMYWebView;
+			path = IMYWebView;
+			sourceTree = "<group>";
+		};
+		03C9861908886C02106D239BDD8028D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03819ABA8C90D7854D6E91B97E1320A8 /* IMYWebView */,
+				7D5474D2AFF259FAA36030E07A0E36E2 /* SDAutoLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		715B06D189463203BA2BCCC92A4E078E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4AEF86BECC9A502859C740FF9816C66 /* SDAutoLayout.xcconfig */,
+				6C5C396147B337021649243D8965EC1F /* SDAutoLayout-dummy.m */,
+				159DA0789F6165B46A611055B4605464 /* SDAutoLayout-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDAutoLayout";
+			sourceTree = "<group>";
+		};
+		7D5474D2AFF259FAA36030E07A0E36E2 /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				97822B74A2F454EBF086FC0F2720A9F7 /* SDAutoLayout.h */,
+				A556D0723732E0D64F314BBA077F049B /* UITableView+SDAutoTableViewCellHeight.h */,
+				B7FB07B64717A3685CA16ECB30D23873 /* UITableView+SDAutoTableViewCellHeight.m */,
+				B0C397A499DF94142266783CFFBEB5D0 /* UIView+SDAutoLayout.h */,
+				2904485B48D489102DB9293DF9ACE852 /* UIView+SDAutoLayout.m */,
+				715B06D189463203BA2BCCC92A4E078E /* Support Files */,
+			);
+			name = SDAutoLayout;
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				03C9861908886C02106D239BDD8028D5 /* Pods */,
+				E5E3340143338F7793EEF670E6C523AE /* Products */,
+				A8C01B0E8627DAB5857E5E219A736ADD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		887CCA87E12E7843AAFE50F451D0D2CA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C94AA35097704BE8458DC3655705AC31 /* IMYWebView.xcconfig */,
+				16DEDAC0237F394ED22E2966A08FC7C1 /* IMYWebView-dummy.m */,
+				E5159B9431EB5E3F42E2BD14C55E95F4 /* IMYWebView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IMYWebView";
+			sourceTree = "<group>";
+		};
+		9BCDCB7C7975D4E2A5D7B6D4BDECA64A /* Pods-IMYWebView */ = {
+			isa = PBXGroup;
+			children = (
+				A6BC7ECA25C382FB65613536BE543B25 /* Pods-IMYWebView-acknowledgements.markdown */,
+				312E7B296673472F3194AC1B3A203216 /* Pods-IMYWebView-acknowledgements.plist */,
+				D1772983CCC566B1AB204A08C71BECE3 /* Pods-IMYWebView-dummy.m */,
+				B3CE5CF562B04DAB5B92E64985197633 /* Pods-IMYWebView-frameworks.sh */,
+				5D3D7D47BDC5FF5A95B01D89B82E7062 /* Pods-IMYWebView-resources.sh */,
+				07F1BA5EDAF5754F9E1984F5E64C56FA /* Pods-IMYWebView.debug.xcconfig */,
+				17E84BE957CEC129A0C3BD56FD4DAC10 /* Pods-IMYWebView.release.xcconfig */,
+			);
+			name = "Pods-IMYWebView";
+			path = "Target Support Files/Pods-IMYWebView";
+			sourceTree = "<group>";
+		};
+		A8C01B0E8627DAB5857E5E219A736ADD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BCDCB7C7975D4E2A5D7B6D4BDECA64A /* Pods-IMYWebView */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E5E3340143338F7793EEF670E6C523AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6ACE1469A2A974AF094A0B758312127 /* libIMYWebView.a */,
+				8741C06A4EE6DD3856DDF541EB6D7431 /* libPods-IMYWebView.a */,
+				4B7AE3C27FC2CA253671C90CB8117DDD /* libSDAutoLayout.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AC020DF61799E3DA551A88D1F2C0C305 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93FA21BA66D4872A4382E85705EE652 /* IMY_NJKWebViewProgress.h in Headers */,
+				F826BA40CB801A4B5294B0268C7464EE /* IMYWebView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA777DD81244C0C8CB95EB7717334B76 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2583841E452778CE060D2CAD9A843687 /* SDAutoLayout.h in Headers */,
+				FD59CA0E744815C771992CE493E9EAC0 /* UITableView+SDAutoTableViewCellHeight.h in Headers */,
+				CD350A558E7698FF191CAB0E074013E3 /* UIView+SDAutoLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		02AAB103E0A257E52D8E3993755BED02 /* Pods-IMYWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C62E47EE2A835D9EC87B221C13DB2116 /* Build configuration list for PBXNativeTarget "Pods-IMYWebView" */;
+			buildPhases = (
+				3E6ADA7B0E74A160ED9A42DF5DAA73DE /* Sources */,
+				9C922A2DEA726225A8FCC079908720E4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				839DB41345B4D5BF451749D1F9069FF9 /* PBXTargetDependency */,
+				B2777CDD154F60E67F58F9603EA55C9F /* PBXTargetDependency */,
+			);
+			name = "Pods-IMYWebView";
+			productName = "Pods-IMYWebView";
+			productReference = 8741C06A4EE6DD3856DDF541EB6D7431 /* libPods-IMYWebView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		746C94C68BA79DF66CB85E08EAC4A1DD /* SDAutoLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B9AE57189C6C0B4658BF450CAA1A03B /* Build configuration list for PBXNativeTarget "SDAutoLayout" */;
+			buildPhases = (
+				ABACB06580F0B1F0B77A03D30A0280F4 /* Sources */,
+				43263CA47F5D33AF37AD5ED22E716F4E /* Frameworks */,
+				DA777DD81244C0C8CB95EB7717334B76 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDAutoLayout;
+			productName = SDAutoLayout;
+			productReference = 4B7AE3C27FC2CA253671C90CB8117DDD /* libSDAutoLayout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		83DAA7151B89430A81BAFAF7447424C2 /* IMYWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE68D822D477D999062D876229D249ED /* Build configuration list for PBXNativeTarget "IMYWebView" */;
+			buildPhases = (
+				17375174F74EF08F03872E7337CE73F6 /* Sources */,
+				533CBE6DC80E0DBED5FF8391A1369F06 /* Frameworks */,
+				AC020DF61799E3DA551A88D1F2C0C305 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMYWebView;
+			productName = IMYWebView;
+			productReference = A6ACE1469A2A974AF094A0B758312127 /* libIMYWebView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E5E3340143338F7793EEF670E6C523AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83DAA7151B89430A81BAFAF7447424C2 /* IMYWebView */,
+				02AAB103E0A257E52D8E3993755BED02 /* Pods-IMYWebView */,
+				746C94C68BA79DF66CB85E08EAC4A1DD /* SDAutoLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17375174F74EF08F03872E7337CE73F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5FB1BA2BCB134B5C3DB751AF2E8F5B /* IMY_NJKWebViewProgress.m in Sources */,
+				389A6BBD4A509C490AD8C0875D70A1B6 /* IMYWebView-dummy.m in Sources */,
+				D5E0767549F31CF21FE3DCD8659FDB5B /* IMYWebView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E6ADA7B0E74A160ED9A42DF5DAA73DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605D2665CDCFFCAF28EDEEA141D377AD /* Pods-IMYWebView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABACB06580F0B1F0B77A03D30A0280F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66844312B0D22D4C8DA174A0C251BAAB /* SDAutoLayout-dummy.m in Sources */,
+				38718D0D2260B8A66F0FDDFDBCD40EF9 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				3602A316DC587A22D75176F3C947DD70 /* UIView+SDAutoLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		839DB41345B4D5BF451749D1F9069FF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IMYWebView;
+			target = 83DAA7151B89430A81BAFAF7447424C2 /* IMYWebView */;
+			targetProxy = 5E6ACE06C2C5C5EB767F947BFDF51B79 /* PBXContainerItemProxy */;
+		};
+		B2777CDD154F60E67F58F9603EA55C9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDAutoLayout;
+			target = 746C94C68BA79DF66CB85E08EAC4A1DD /* SDAutoLayout */;
+			targetProxy = 558E11CD1C159ADED60FF26F4F1BC3FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		047960B08FA91C8BA50729E458C61D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4AEF86BECC9A502859C740FF9816C66 /* SDAutoLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SDAutoLayout/SDAutoLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SDAutoLayout;
+				PRODUCT_NAME = SDAutoLayout;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4814D8EA884CBA70F4DAFE1DD9319438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C94AA35097704BE8458DC3655705AC31 /* IMYWebView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/IMYWebView/IMYWebView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = IMYWebView;
+				PRODUCT_NAME = IMYWebView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F47AECF72A8C41F7B3FE3B024A9F6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17E84BE957CEC129A0C3BD56FD4DAC10 /* Pods-IMYWebView.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B7E4C63C50F9C939D44C166BB988162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4AEF86BECC9A502859C740FF9816C66 /* SDAutoLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SDAutoLayout/SDAutoLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SDAutoLayout;
+				PRODUCT_NAME = SDAutoLayout;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A64558D6EC4E395A7790F70BFF185D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C94AA35097704BE8458DC3655705AC31 /* IMYWebView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/IMYWebView/IMYWebView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = IMYWebView;
+				PRODUCT_NAME = IMYWebView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E991E64093B1CA38490D66B2411211E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07F1BA5EDAF5754F9E1984F5E64C56FA /* Pods-IMYWebView.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B9AE57189C6C0B4658BF450CAA1A03B /* Build configuration list for PBXNativeTarget "SDAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047960B08FA91C8BA50729E458C61D88 /* Debug */,
+				9B7E4C63C50F9C939D44C166BB988162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE68D822D477D999062D876229D249ED /* Build configuration list for PBXNativeTarget "IMYWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4814D8EA884CBA70F4DAFE1DD9319438 /* Debug */,
+				A64558D6EC4E395A7790F70BFF185D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C62E47EE2A835D9EC87B221C13DB2116 /* Build configuration list for PBXNativeTarget "Pods-IMYWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E991E64093B1CA38490D66B2411211E6 /* Debug */,
+				4F47AECF72A8C41F7B3FE3B024A9F6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
